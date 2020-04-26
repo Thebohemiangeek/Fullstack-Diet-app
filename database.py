@@ -3,7 +3,7 @@ import sqlite3
 
 
 def connect_db():
-    sql = sqlite3.connect("../sqlite/food_log.db")
+    sql = sqlite3.connect("/home/ubuntu/Fullstack-Diet-App/food_log.db")
     sql.row_factory = sqlite3.Row
     return sql
 
